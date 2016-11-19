@@ -1,0 +1,3 @@
+ngx_addon_name=ngx_plugin_demo
+HTTP_MODULES="$HTTP_MODULES ngx_plugin_demo"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_plugin_demo.c"
